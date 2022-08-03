@@ -531,6 +531,50 @@
   },
   {
     "count": "1",
+    "color": "Orange",
+    "title": "PASAJE SECRETO",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | Habilidades... ",
+      "rule",
+      "fill | 2",
+      "rule",
+      "property| Evento || Dado | ",
+      "property |1 - Trampa oculta     || 1💥 |",
+      "property |2 - Encuentras     || 1💓 |",
+      "property |3 - Encuentras     || 1🪙 |",
+      "property |4 - Descubres      || 1🧪 | ",
+      "property |5 - Descubres      || 1🧪 |",
+      "property |6 - Descubres      || 1🍄 |"
+    ],
+    "tags": [],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "Orange",
+    "title": "ESCALERA SECRETA",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | Habilidades... ",
+      "rule",
+      "fill | 2",
+      "rule",
+      "property| Evento || Dado | ",
+      "property |1 - Escalera trampa     || 1💥 |",
+      "property |2 - Encuentras     || 1💓 |",
+      "property |3 - Encuentras     || 1🪙 |",
+      "property |4 - Descubres      || 1🧪 | ",
+      "property |5 - Descubres      || 1🍄 |",
+      "property |6 - Encuentras Escudo      || 1🛡 |"
+    ],
+    "tags": [],
+    "title_size": "14"
+  },
+  {
+    "count": "1",
     "color": "DarkViolet",
     "title": "COMERCIANTE",
     "icon": "spiked-mace",
@@ -581,29 +625,7 @@
   },
   {
     "count": "1",
-    "color": "Orange",
-    "title": "PASAJE SECRETO",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | Habilidades... ",
-      "rule",
-      "fill | 2",
-      "rule",
-      "property| Evento || Dado | ",
-      "property |1 - Trampa oculta     || 1💥 |",
-      "property |2 - Encuentras     || 1💓 |",
-      "property |3 - Encuentras     || 1🪙 |",
-      "property |4 - Descubres      || 1🧪 | ",
-      "property |5 - Descubres      || 1🧪 |",
-      "property |6 - Descubres      || 1🍄 |"
-    ],
-    "tags": [],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "Orange",
+    "color": "SandyBrown",
     "title": "EVENTO",
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
@@ -632,7 +654,7 @@
   },
   {
     "count": "1",
-    "color": "Orange",
+    "color": "SandyBrown",
     "title": "EVENTO",
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
@@ -642,7 +664,7 @@
       "fill | 2",
       "property| Evento || Dado | ",
       "property | Monstruo                        || 1 |",
-      "property | Pieza de armadura +1 🛡         || 2 |",
+      "property | Golem                        || 2 |",
       "property | Una poción (+3 💓)              || 3 |",
       "property | Libera al Prisionero (+3 ⚔️)    || 4 |",
       "property | Hechizo de Veneno (+1 💥)       || 5 |",
@@ -652,9 +674,37 @@
       "description | Pon esta carta junto al Jefe. Puedes usar un dado extra contra él. No aplica para el Boss Final |",
       "rule",
       "property | Monstruo: |  |",
-      "property | 💓 Nivel Mazmorra          || +1 |",
-      "property | 💥 Daño                    || +3 |",
-      "property | ⚔️ Recompensa              || +3 |"
+      "property | 💓 Salud - Nivel Mazmorra          || +1 |",
+      "property | 💥 Daño - Nivel Mazmorra            || +3 |",
+      "property | ⚔️ Recompensa                          || +3 |"
+    ],
+    "tags": [],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "SandyBrown",
+    "title": "EVENTO",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle |Chequeo de Habilidades...",
+      "rule",
+      "fill | 2",
+      "property| Evento || Dado | ",
+      "property | Te roba un Ladron               || 1 |",
+      "property | Te roba un Gnomo               || 2 |",
+      "property | Encuentras una poción (+1 💓)              || 3 |",
+      "property | Liberas al Prisionero (+1 ⚔️)    || 4 |",
+      "property | Hechizo sanación (+1 💓)       || 5 |",
+      "property | Liberas a la Doncella (+3 ⚔️)    || 6 |",
+      "rule",
+      "property | Ladron: |  |",
+      "property | 🪙 Oro                 || -1 |",
+      "property | 🍄 Comida              || -1 |",
+      "property | ⚔️ Experiencia         || -1 |",
+      "property | Gnomo: |  |",
+      "property | ⚔️ Experiencia         || -1 |"
     ],
     "tags": [],
     "title_size": "16"
@@ -953,50 +1003,6 @@
   },
   {
     "count": "1",
-    "color": "Orange",
-    "title": "PASAJE SECRETO",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | Habilidades... ",
-      "rule",
-      "fill | 2",
-      "rule",
-      "property| Evento || Dado | ",
-      "property |1 - Trampa oculta     || 1💥 |",
-      "property |2 - Encuentras     || 1💓 |",
-      "property |3 - Encuentras     || 2🪙 |",
-      "property |4 - Descubres      || 1🍗 | ",
-      "property |5 - Descubres      || 1🧪 |",
-      "property |6 - Ganas Experiencia      || 1⚔️ |"
-    ],
-    "tags": [],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "Orange",
-    "title": "PASAJE SECRETO*",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | Habilidades... ",
-      "rule",
-      "fill | 2",
-      "rule",
-      "property| Evento || Dado | ",
-      "property |1 - Escalera trampa     || 1💥 |",
-      "property |2 - Encuentras     || 1💓 |",
-      "property |3 - Encuentras     || 1🪙 |",
-      "property |4 - Descubres      || 1🧪 | ",
-      "property |5 - Descubres      || 1🍄 |",
-      "property |6 - Encuentras Escudo      || 1🛡 |"
-    ],
-    "tags": [],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
     "color": "dimgray",
     "title": "MAZMORRA",
     "icon": "spiked-mace",
@@ -1035,5 +1041,39 @@
       "generador https://crobi.github.io/rpg-cards/generator/generate.html"
     ],
     "title_size": "16"
-  }  
+  },
+  {
+    "count": "1",
+    "color": "dimgray",
+    "title": "REFERENCIA",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | JUGADORES / AGRESIVIDAD",
+      "rule",
+      "property | Mounstruos  💓 / 💥 / ⚔️   |  |",
+      "property | 👤 Declarado      || ☕ |",
+      "property | 👤👤 Declarado  || x2 ☠|",
+      "rule",
+      "property | Agresividad:      |  |",
+      "property | 💀 Iniciante        || 💅 |",
+      "property | 💀 Experimentado / Daño extra      || +3 ☠ |",
+      "property | 💀 Infierno / Daño extra      || +6 ☠ |",
+      "rule",
+      "property | Extras      |  |",
+      "property | ℹ️   ||    |",
+      "rule",
+      "property | ℹ️   ||    |",
+      "rule",
+      "property | ℹ️   ||    |",
+      "rule",
+      "property | ℹ️   ||    |",
+      "rule",
+      ""
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
+    "title_size": "16"
+  }
 ]
