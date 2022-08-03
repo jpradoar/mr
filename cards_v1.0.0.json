@@ -953,43 +953,6 @@
   },
   {
     "count": "1",
-    "color": "dimgray",
-    "title": "MAZMORRA",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | 💓 DE MONSTRUO 👹",
-      "rule",
-      "boxes | 42 | 2.9"
-    ],
-    "tags": [],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "dimgray",
-    "title": "MAZMORRA",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | 💪 NIVEL",
-      "rule",
-      "property | 🟩  Nivel 1 - Cabernas Lodosas |",
-      "boxes | 2 | 2.7",
-      "property | 🟨  Nivel 2 - Mazmorra Venenosa |",
-      "boxes | 2 | 2.7",
-      "property | 🟧  Nivel 3 - Catacumbas |",
-      "boxes | 3 | 2.7",
-      "property | 🟥  Nivel 4 - Inframundo |",
-      "boxes | 4 | 2.7",
-      "property | ⬛ Nivel 5 - Fortaleza Infernal |",
-      "boxes | 5 | 2.7"
-    ],
-    "tags": [],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
     "color": "Orange",
     "title": "PASAJE SECRETO",
     "icon": "spiked-mace",
@@ -1031,5 +994,46 @@
     ],
     "tags": [],
     "title_size": "16"
-  }
+  },
+  {
+    "count": "1",
+    "color": "dimgray",
+    "title": "MAZMORRA",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | 💓 DE MONSTRUO 👹",
+      "rule",
+      "boxes | 42 | 2.9"
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "dimgray",
+    "title": "MAZMORRA",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | 💪 NIVEL",
+      "rule",
+      "property | 🟩  Nivel 1 - Cabernas Lodosas |",
+      "boxes | 2 | 2.7",
+      "property | 🟨  Nivel 2 - Mazmorra Venenosa |",
+      "boxes | 2 | 2.7",
+      "property | 🟧  Nivel 3 - Catacumbas |",
+      "boxes | 3 | 2.7",
+      "property | 🟥  Nivel 4 - Inframundo |",
+      "boxes | 4 | 2.7",
+      "property | ⬛ Nivel 5 - Fortaleza Infernal |",
+      "boxes | 5 | 2.7"
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
+    "title_size": "16"
+  }  
 ]
