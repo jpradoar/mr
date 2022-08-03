@@ -1,0 +1,4 @@
+# RPG Basado en Mini Rogue 
+
+### Generador
+	https://crobi.github.io/rpg-cards/generator/generate.html
