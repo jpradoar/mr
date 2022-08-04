@@ -382,6 +382,38 @@
   {
     "count": "1",
     "color": "black",
+    "title": "ASESINO EXPERTO",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | 👹  No escaparas a mis cuchillas...",
+      "rule",
+      "fill | 2",
+      "rule",
+      "property | ❤️ Salud             |  |",
+      "property | 💥 Daño              |  |",
+      "property|  ⚔️ Experiencia       |  |",
+      "property|  🛡 Traspasa Armadura     |  |",
+      "property | 🔥 Daño de fuego     |  |",
+      "property | 🥇 Usa carta de premios     |  |",
+      "rule",
+      "property|  NIVEL  | |  ❤️ / 💥 / ⚔️ | ",
+      "rule",
+      "property| 1  || 10 / 1  | / 1⚔️",
+      "property| 2  || 12 / 2  | / 2⚔️",
+      "property| 3  || 14 / 2 🛡 | / 2⚔️",
+      "property| 4  || 16 / 3 🛡 | / 2⚔️",
+      "property| 5  || 18 / 3 🔥  | / 🥇",
+      "property| 6  ||  20 / 3 🔥 | / 🥇"
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "black",
     "title": "FINAL BOSS",
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
@@ -402,7 +434,7 @@
       "rule",
       "property| 1 Ronda || 1 /  1 🧊 | / 0",
       "property| 2 Ronda || 24 / 8 🔥 | / 0",
-      "property| 2 Ronda || 20 / 9 🤢 | /  +5🪙 🥇"
+      "property| 2 Ronda || 20 / 9 🤢 | /  +5 🪙 🥇"
     ],
     "tags": [
       "push"
@@ -494,7 +526,7 @@
       "property|  ✨ Por caer aqui ganas       || 1🪙  |",
       "rule",
       "property| Num / Item || Premio |",
-      "property | 1 - Pieza de armadura   || +1 🛡  |",
+      "property | 1 - Pieza de armadura   || +1🛡  |",
       "property | 2 - Mejora de armadura  || +2 ⚔️  |",
       "property | 3 - Hechizo de Fuego    || +8 🔥  |",
       "property | 4 - Hechizo de Hielo    || +1 🧊  |",
@@ -525,13 +557,43 @@
       "rule",
       "property| Num / Item || Premio |",
       "property | 1 - Pieza de comida    || +1 ❤️ |",
-      "property | 2 - Pocion cura Veneno ||    🧪  |",
+      "property | 2 - Pocion cura Veneno ||    1🧪  |",
       "property | 3 - Puñal              || +1 ⚔️ |",
       "property | 4 - Hechizo de Fuego   || +2 🔥 |",
-      "property | 5 - Hechizo Veneno ||    🧪 | ",
+      "property | 5 - Hechizo Veneno ||    1🧪 | ",
       "property | 6 - Hacha de guerra    || +2 ⚔️ |"
     ],
     "tags": [],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "Green",
+    "title": "PREMIOS",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | Gran lucha. Gran botín...  🥇🏆",
+      "rule ",
+      "property |🎲 = 6 y podras elegir una opción  |",
+      "fill | ",
+      "property|  Al caer en esta carga recibes || +1🪙 | ",
+      "rule",
+      "property| 1 - Frutas             || +1🍎  | ",
+      "property| 2 - Carne de animal || +1🍗  | ",
+      "property| 3 - Te curas las heridas || +1❤️ |",
+      "property| 4 - Lees Tecnicas de combate || +1⚔️ |",
+      "property| 5 - Dormir profundamente   || +1❤️ |",
+      "rule",
+      "property| 6 - Frutas             || +1🍎  | ",
+      "property| 6 - Carne de animal || +1🍗  | ",
+      "property| 6 - Te curas las heridas || +1❤️ |",
+      "property| 6 - Lees Tecnicas de combate || +1⚔️ |",
+      "property| 6 - Lees Tecnicas de defensa     || +1🛡|"
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
     "title_size": "16"
   },
   {
@@ -544,8 +606,9 @@
       "subtitle | Habilidades... ",
       "rule",
       "fill | 2",
-      "rule",
+      "",
       "property| Evento || 🎲 Dado | ",
+      "rule",
       "property |1 - Trampa oculta     || 1💥 |",
       "property |2 - Encuentras     || 1 ❤️ |",
       "property |3 - Encuentras     || 1 🪙 |",
@@ -574,8 +637,9 @@
       "subtitle | Habilidades... ",
       "rule",
       "fill | 2",
-      "rule",
+      "",
       "property| Evento || Dado | ",
+      "rule",
       "property |1 - Escalera trampa     || 1💥 |",
       "property |2 - Encuentras     || 1❤️ |",
       "property |3 - Encuentras     || 1🪙 |",
@@ -596,17 +660,20 @@
       "subtitle | Dime que necesitas ?",
       "rule",
       "fill | 2",
-      "rule",
       "property| COMPRA || Oro | ",
+      "rule",
       "property | Racion de comida: +1🍗          || 🪙 1 |",
       "property | Poción de Salud: +1 ❤️          || 🪙 1 |",
       "property | Gran poción de Salud: +4 ❤️     || 🪙 3 |",
       "property | Pieza de armadura: +1 🛡        || 🪙 6 |",
       "property | 1 Hechizo cualquiera            || 🪙 8 |",
-      "rule",
+      "fill | ",
       "property| VENTA || Oro | ",
-      "property | Pieza de armadura cualquiera    || 🪙 3 |",
-      "property | Racion de comida (1)              || 🪙 2 |"
+      "rule",
+      "property | Racion de comida (1)              || 🪙 2 |",
+      "property | Pieza de armadura     || 🪙 3 |",
+      "property | Hechizo cualquiera (1)           || 🪙 4 |",
+      "fill | "
     ],
     "tags": [],
     "title_size": "16"
@@ -621,8 +688,8 @@
       "subtitle | Dime que necesitas ?",
       "rule",
       "fill | 2",
-      "rule",
       "property| COMPRA || Oro | ",
+      "rule",
       "property | Racion de comida: +1🍗          || 🪙 1 |",
       "property | Poción de Salud: +1 ❤️          || 🪙 1 |",
       "property | Gran poción de Salud: +4 ❤️     || 🪙 3 |",
@@ -630,11 +697,12 @@
       "property | Tomo del conocimiento +2 ⚔️     || 🪙 7 |",
       "property | Hechizo de 🔥                   || 🪙 8 |",
       "property | Hechizo cualquiera (1)          || 🪙 9 |",
-      "rule",
+      "fill | 2",
       "property| VENTA || Oro | ",
+      "rule",
       "property | Pieza de armadura               || 🪙 3 |",
       "property | Racion de comida (1)            || 🪙 2 |",
-      ""
+      "fill | 2"
     ],
     "tags": [],
     "title_size": "16"
@@ -706,7 +774,7 @@
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle |Chequeo de Habilidades...",
+      "subtitle | Chequeo de Habilidades...",
       "fill | 2",
       "property| Evento || Dado | ",
       "rule",
@@ -725,6 +793,66 @@
       "property | ⚔️ Experiencia         || -1 |"
     ],
     "tags": [],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "darkblue",
+    "title": "HECHIZOS",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle |HECHIZOS / HABILIDADES 🎲🥇(5/6)  ",
+      "rule",
+      "property |🙌🏻 Objeto utilizable | | ",
+      "fill | ",
+      "rule",
+      "property |HECHIZOS: | | ",
+      "property |🔥 Bola de fuego. || +5 |",
+      "property |🧊 No atacará en este turno. || -  | ",
+      "property |🤢 Daño al mismo durante 4 turnos. || +1 |",
+      "property |✝️ Sacrificio (quitate X de salud) || +X |",
+      "rule",
+      "property| HABILIDADES: |",
+      "property |🗡️ Apuñalar por la espalda. || +3 |",
+      "property |🤺 Golpe Veloz. || +2 |",
+      "property |🛡 Esquivar golpe. || -1 |",
+      "property |🛡 Bloquear golpe. || -1 | ",
+      "rule"
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "darkblue",
+    "title": "HECHIZOS",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle |HECHIZOS / HABILIDADES 🎲🥇(5/6)  ",
+      "rule",
+      "property |🙌🏻 Objeto utilizable | | ",
+      "fill | ",
+      "rule",
+      "property |HECHIZOS: | | ",
+      "property |🔥 Bola de fuego. || +4 |",
+      "property |🧊 No atacará en este turno. || -  | ",
+      "property |🤢 Daño al mismo durante 4 turnos. || +1 |",
+      "property |✝️ Sacrificio (quitate X de salud) || +X |",
+      "rule",
+      "property| HABILIDADES: |",
+      "property |🗡️ Apuñalar por la espalda. || +3 |",
+      "property |🤺 Golpe Veloz. || +2 |",
+      "property |🛡 Esquivar golpe. || -1 |",
+      "property |🛡 Bloquear golpe. || -2 | ",
+      "rule"
+    ],
+    "tags": [
+      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
+    ],
     "title_size": "16"
   },
   {
@@ -751,7 +879,7 @@
       "property | 2 Pendulos                      ||   🤢     / ___| ",
       "property | 3 Lluvia de ácido               || -1🛡     / ___| ",
       "property | 4 Cuchillas voladoras           ||   💥     / ___| ",
-      "property | 5 Paredes moviles               ||  ___    / +1🛡 | ",
+      "property | 5 Paredes moviles               ||  -1🛡  /___  | ",
       "property | 6 Enjambre de ratas             ||  ___     / +1🛡 | "
     ],
     "tags": [],
@@ -781,7 +909,7 @@
       "property | 3 Enjambre de murciélagos       || -1🛡  / ___ | ",
       "property | 4 Trampa de Flechas             ||   💥  / ___ | ",
       "property | 5 Trampa de Osos                ||  -1🛡  /___  | ",
-      "property | 6 Espinas diminutas             ||  ___  /  1🥑 | "
+      "property | 6 Espinas diminutas             ||  ___  /  +1🥑 | "
     ],
     "tags": [],
     "title_size": "16"
@@ -809,7 +937,7 @@
       "property | 2 Abrir pequeño cofre           ||   🤢  / ___| ",
       "property | 3 Lees Libro maldito             || -1🛡  / ___| ",
       "property | 4 Lees Libro maldito             ||   💥  / ___| ",
-      "property | 5 Lees Libro maldito             ||  2⚔️  / ___  | ",
+      "property | 5 Lees Libro maldito             ||  -2⚔️  / ___  | ",
       "property | 6 Lees Libro mágico             ||  ___  / 3⚔️  | "
     ],
     "tags": [],
@@ -838,7 +966,7 @@
       "property | 2 Trampa Veneno                   ||   🤢 / ___| ",
       "property | 3 Trampa Explosiva                || -1🛡 / ___| ",
       "property | 4 Trampa Madriguera               ||  2💥 / ___| ",
-      "property | 5 Piedra Maldita                  ||  2⚔️ /️___  | ",
+      "property | 5 Piedra Maldita                  ||  -2⚔️ /️___  | ",
       "property | 6 Cofre Trampa                    ||  ___ / 3⚔️ | "
     ],
     "tags": [],
@@ -1097,157 +1225,6 @@
       "property |🟥| ",
       "property |🟪| ",
       " "
-    ],
-    "tags": [
-      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
-    ],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "SandyBrown",
-    "title": "EVENTO x",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | Chequeo de Habilidades...",
-      "rule",
-      "fill | 2",
-      "property| Evento || Dado | ",
-      "rule",
-      "property | Te roba un Ladron               || 1 |",
-      "property | Te roba un Gnomo               || 2 |",
-      "property | Encuentras una poción (+1 ❤️)              || 3 |",
-      "property | Liberas al Prisionero (+1 ⚔️)    || 4 |",
-      "property | Hechizo sanación (+1 ❤️)       || 5 |",
-      "property | Liberas a la Doncella (+3 ⚔️)    || 6 |",
-      "rule",
-      "property | Ladron: |  |",
-      "property | 🪙 Oro                 || -1 |",
-      "property | 🍄 Comida              || -1 |",
-      "property | ⚔️ Experiencia         || -1 |",
-      "property | Gnomo: |  |",
-      "property | ⚔️ Experiencia         || -1 |"
-    ],
-    "tags": [
-      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
-    ],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "ASESINO EXPERTO",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | 👹  No escaparas a mis cuchillas...",
-      "rule",
-      "fill | 2",
-      "rule",
-      "property | ❤️ Salud             |  |",
-      "property | 💥 Daño              |  |",
-      "property|  ⚔️ Experiencia       |  |",
-      "property|  🛡 Traspasa Armadura     |  |",
-      "property | 🔥 Daño de fuego     |  |",
-      "property | 🥇 Usa carta de premios     |  |",
-      "rule",
-      "property|  NIVEL  | |  ❤️ / 💥 / ⚔️ | ",
-      "rule",
-      "property| 1  || 10 / 1  | / 1⚔️",
-      "property| 2  || 12 / 2  | / 2⚔️",
-      "property| 3  || 14 / 2 🛡 | / 2⚔️",
-      "property| 4  || 16 / 3 🛡 | / 2⚔️",
-      "property| 5  || 18 / 3 🔥  | / 🥇",
-      "property| 6  ||  20 / 3 🔥 | / 🥇"
-    ],
-    "tags": [
-      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
-    ],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "Green",
-    "title": "PREMIOS x",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | Gran lucha. Gran botín...  🎲🥇",
-      "rule ",
-      "property |🎲 = 6 y podras elegir una opción  |",
-      "fill | ",
-      "property|  Al caer en esta carga recibes || +1🪙 | ",
-      "rule",
-      "property| 1 - Frutas             || +1🍎  | ",
-      "property| 2 - Carne de animal || +1🍗  | ",
-      "property| 3 - Te curas las heridas || +1❤️ |",
-      "property| 4 - Lees Tecnicas de combate || +1⚔️ |",
-      "property| 5 - Dormir profundamente   || +1❤️ |",
-      "rule",
-      "property| 6 - Frutas             || +1🍎  | ",
-      "property| 6 - Carne de animal || +1🍗  | ",
-      "property| 6 - Te curas las heridas || +1❤️ |",
-      "property| 6 - Lees Tecnicas de combate || +1⚔️ |",
-      "property| 6 - Lees Tecnicas de defensa     || +1🛡|"
-    ],
-    "tags": [
-      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
-    ],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "darkblue",
-    "title": "HECHIZOS",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle |HECHIZOS / HABILIDADES 🎲🥇(5/6)  ",
-      "rule",
-      "fill | ",
-      "rule",
-      "property |HECHIZOS: | | ",
-      "property |🔥 Bola de fuego. || +5 |",
-      "property |🧊 No atacará en este turno. || -  | ",
-      "property |🤢 Daño al mismo durante 4 turnos. || +1 |",
-      "property |✝️ Sacrificio (quitate X de salud) || +X |",
-      "rule",
-      "property| HABILIDADES: |",
-      "property |🗡️ Apuñalar por la espalda. || +3 |",
-      "property |🤺 Golpe Veloz. || +2 |",
-      "property |🛡 Esquivar golpe. || -1 |",
-      "property |🛡 Bloquear golpe. || -1 | ",
-      "rule"
-    ],
-    "tags": [
-      "generador https://crobi.github.io/rpg-cards/generator/generate.html"
-    ],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "darkblue",
-    "title": "HECHIZOS",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle |HECHIZOS / HABILIDADES 🎲🥇(5/6)  ",
-      "rule",
-      "fill | ",
-      "rule",
-      "property |HECHIZOS: | | ",
-      "property |🔥 Bola de fuego. || +4 |",
-      "property |🧊 No atacará en este turno. || -  | ",
-      "property |🤢 Daño al mismo durante 4 turnos. || +1 |",
-      "property |✝️ Sacrificio (quitate X de salud) || +X |",
-      "rule",
-      "property| HABILIDADES: |",
-      "property |🗡️ Apuñalar por la espalda. || +3 |",
-      "property |🤺 Golpe Veloz. || +2 |",
-      "property |🛡 Esquivar golpe. || -1 |",
-      "property |🛡 Bloquear golpe. || -2 | ",
-      "rule"
     ],
     "tags": [
       "generador https://crobi.github.io/rpg-cards/generator/generate.html"
