@@ -409,7 +409,7 @@
     "tags": [
       "generador https://crobi.github.io/rpg-cards/generator/generate.html"
     ],
-    "title_size": "16"
+    "title_size": "14"
   },
   {
     "count": "1",
@@ -448,15 +448,22 @@
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle | Estas solo en un lugar tranquilo...",
+      "subtitle | Estas solo, en un lugar tranquilo...",
       "rule",
       "fill | ",
       "rule",
       "property|  Elije una opción || ✔️ | ",
       "rule",
-      "property| 1 - Tecnicas de combate || +1🛡 +1⚔️ |",
-      "property| 2 - Frutas             || +1🍎 +1❤️ |",
-      "property| 3 - Dormir             || +2❤️ |"
+      "property| 1 - Fruta             || +1 🍎 |",
+      "property| 2 - Dormir             || +2 ❤️ |",
+      "property| 3 - Hongo             || +1 🍄 |",
+      "property| 4 - Verdura             || +1 🥕 |",
+      "property| 5 - Carne             || +1🍗 | ",
+      "property| 6 - Curarte heridas   || +1 ❤️ |",
+      "property| 7 - Lees Tecnicas de defensa || +1🛡 |",
+      "property| 8 - Lees Tecnicas de combate || +1 ⚔️ |",
+      "property| 9 - Encontrar algo de valor || +1 🪙 |",
+      ""
     ],
     "tags": [],
     "title_size": "16"
@@ -468,42 +475,25 @@
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle | Estas solo en un lugar tranquilo...",
+      "subtitle | Estas solo, en un lugar tranquilo...",
       "rule",
       "fill | ",
       "rule",
       "property|  Elije una opción || ✔️ | ",
       "rule",
-      "property| 1 - Frutas             || +1🍎  | ",
-      "property| 2 - Carne de animal || +2🍗  | ",
-      "property| 3 - Te curas las heridas || +1❤️ |",
-      "property| 4 - Lees Tecnicas de combate || +1⚔️ |",
-      "property| 5 - Dormir profundamente   || +2❤️ |",
-      "property| 6 - Lees Tecnicas de defensa     || +1🛡|"
+      "property| 1 - Fruta             || +1 🍎 |",
+      "property| 2 - Dormir             || +2 ❤️ |",
+      "property| 3 - Hongo             || +1 🍄 |",
+      "property| 4 - Verdura             || +1 🥕 |",
+      "property| 5 - Carne             || +1🍗 | ",
+      "property| 6 - Curarte heridas   || +1 ❤️ |",
+      "property| 7 - Lees Tecnicas de defensa || +1🛡 |",
+      "property| 8 - Lees Tecnicas de combate || +1 ⚔️ |",
+      ""
     ],
     "tags": [
       "generador https://crobi.github.io/rpg-cards/generator/generate.html"
     ],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "Green",
-    "title": "DESCANSO",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | Estas solo en un lugar tranquilo...",
-      "rule",
-      "fill | ",
-      "rule",
-      "property|  Elije una opción || ✔️ | ",
-      "rule",
-      "property| 1 - Reparar equipo          || +1 ⚔️ |",
-      "property| 2 - Ración de comida     || +1 🍗 |",
-      "property| 3 - Encontrar algo de valor || +1 🪙 |"
-    ],
-    "tags": [],
     "title_size": "16"
   },
   {
@@ -653,20 +643,22 @@
   {
     "count": "1",
     "color": "DarkViolet",
-    "title": "COMERCIANTE",
+    "title": "COMERCIANTE ",
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle | Dime que necesitas ?",
+      "subtitle | Dime que necesitas ? ",
       "rule",
+      "text| Solo poseo lo que ves aqui ...Y que esperabas encontrar en una cueva maldita?",
       "fill | 2",
       "property| COMPRA || Oro | ",
       "rule",
       "property | Racion de comida: +1🍗          || 🪙 1 |",
-      "property | Poción de Salud: +1 ❤️          || 🪙 1 |",
-      "property | Gran poción de Salud: +4 ❤️     || 🪙 3 |",
+      "property | Poción de Salud: +1 ❤️          || 🪙 2 |",
+      "property | Gran poción de Salud: +3 ❤️     || 🪙 3 |",
       "property | Pieza de armadura: +1 🛡        || 🪙 6 |",
       "property | 1 Hechizo cualquiera            || 🪙 8 |",
+      "property | Libro de Experiencia +1 ⚔️           || 🪙 9 |",
       "fill | ",
       "property| VENTA || Oro | ",
       "rule",
@@ -687,6 +679,7 @@
     "contents": [
       "subtitle | Dime que necesitas ?",
       "rule",
+      "text| Apurate!, no tengo todo el día. (mira paranoico para ambos lados...)",
       "fill | 2",
       "property| COMPRA || Oro | ",
       "rule",
@@ -802,9 +795,10 @@
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle |HECHIZOS / HABILIDADES 🎲🥇(5/6)  ",
+      "subtitle |CONJURO / HABILIDAD 📖🥇(5/6)  ",
       "rule",
-      "property |🙌🏻 Objeto utilizable | | ",
+      "property |🙌🏻 Objeto utilizable: | | ",
+      "text |Al leer este 📖 puedes tirar un 🎲. Si sale 5 ó 6, roba la carta y elige un hechizo o habilidad, de lo contrario tu conjuro falla! Levanta una carta de Monstuo. 👹 | ",
       "fill | ",
       "rule",
       "property |HECHIZOS: | | ",
@@ -818,7 +812,7 @@
       "property |🤺 Golpe Veloz. || +2 |",
       "property |🛡 Esquivar golpe. || -1 |",
       "property |🛡 Bloquear golpe. || -1 | ",
-      "rule"
+      ""
     ],
     "tags": [
       "generador https://crobi.github.io/rpg-cards/generator/generate.html"
@@ -832,23 +826,23 @@
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle |HECHIZOS / HABILIDADES 🎲🥇(5/6)  ",
+      "subtitle |CONJURO / HABILIDAD 📖🥇(5/6)  ",
       "rule",
-      "property |🙌🏻 Objeto utilizable | | ",
+      "property |🙌🏻 Objeto utilizable: | | ",
+      "text |Al leer este 📖 puedes tirar un 🎲. Si sale 5 ó 6, roba la carta y elige un hechizo o habilidad, de lo contrario tu conjuro falla! Levanta una carta de Monstuo. 👹 | ",
       "fill | ",
       "rule",
       "property |HECHIZOS: | | ",
-      "property |🔥 Bola de fuego. || +4 |",
+      "property |🔥 Bola de fuego. || +3 |",
       "property |🧊 No atacará en este turno. || -  | ",
-      "property |🤢 Daño al mismo durante 4 turnos. || +1 |",
+      "property |🤢 Daño al mismo durante 2 turnos. || +2 |",
       "property |✝️ Sacrificio (quitate X de salud) || +X |",
       "rule",
       "property| HABILIDADES: |",
       "property |🗡️ Apuñalar por la espalda. || +3 |",
-      "property |🤺 Golpe Veloz. || +2 |",
+      "property |🤺 Golpe Veloz. || +1 |",
       "property |🛡 Esquivar golpe. || -1 |",
-      "property |🛡 Bloquear golpe. || -2 | ",
-      "rule"
+      "property |🛡 Bloquear golpe. || -2 | "
     ],
     "tags": [
       "generador https://crobi.github.io/rpg-cards/generator/generate.html"
@@ -872,15 +866,15 @@
       "property | 🧪 Pocion limpia efectos de hechizos |",
       "property | 🤢 Daño de veneno |",
       "property | 🧊 Congela un turno |",
-      "property| 🕳 Vuelves al nivel anterior | |",
+      "property| 🕳 Trampa Hoyo | |",
       "rule",
       "property | 💀 Trampa                       || 🎲 Fallo  / Exito|",
-      "property | 1 🕳  vuelves al nivel anterior ||   💥 -1🥕/ ___| ",
-      "property | 2 Pendulos                      ||   🤢     / ___| ",
-      "property | 3 Lluvia de ácido               || -1🛡     / ___| ",
-      "property | 4 Cuchillas voladoras           ||   💥     / ___| ",
-      "property | 5 Paredes moviles               ||  -1🛡  /___  | ",
-      "property | 6 Enjambre de ratas             ||  ___     / +1🛡 | "
+      "property | 1 🕳  vuelves al nivel anterior ||   1 💥/ ___| ",
+      "property | 2 Flechas venenosas                      ||   1 🤢/ ___| ",
+      "property | 3 Lluvia de ácido               || -1 🛡/ ___| ",
+      "property | 4 Abres Caja explosiva            ||   1 🔥/ ___| ",
+      "property | 5 Activas Paredes moviles               ||  -1 🛡/___  | ",
+      "property | 6 Te salvas de suerte...             ||  ___ / +1🧪 | "
     ],
     "tags": [],
     "title_size": "16"
@@ -901,15 +895,44 @@
       "property | 🔥 Daño de fuego |",
       "property | 🤢 Daño de veneno |",
       "property | 🧊 Congela un turno |",
-      "property| 🕳 Vuelves al nivel anterior | |",
+      "property| 🕳 Trampa Hoyo | |",
       "rule",
       "property | 💀 Trampa                       || 🎲 Fallo  / Exito|",
-      "property | 1 🕳  vuelves al nivel anterior || -2🥕  / ___| ",
-      "property | 2 Pequeña araña                 ||   🤢  / ___| ",
-      "property | 3 Enjambre de murciélagos       || -1🛡  / ___ | ",
-      "property | 4 Trampa de Flechas             ||   💥  / ___ | ",
-      "property | 5 Trampa de Osos                ||  -1🛡  /___  | ",
-      "property | 6 Espinas diminutas             ||  ___  /  +1🥑 | "
+      "property | 1 🕳  vuelves al nivel anterior || -2 🥕/ ___| ",
+      "property | 2 Te envenena una araña                 ||   1 🤢/ ___| ",
+      "property | 3 Enjambre de murciélagos       || -1 🛡/ ___ | ",
+      "property | 4 Abres Trampa de Flechas             ||   1 💥/ ___ | ",
+      "property | 5 Activas Trampa de Osos                ||  -1 🛡/___  | ",
+      "property | 6 Uff, esto estuvo cerca!!!        ||  ___  /  +1🥑 | "
+    ],
+    "tags": [],
+    "title_size": "16"
+  },
+  {
+    "count": "1",
+    "color": "Red",
+    "title": "TRAMPA",
+    "icon": "spiked-mace",
+    "icon_back": "spiked-mace",
+    "contents": [
+      "subtitle | 💀 Habilidad ó Desgracia...",
+      "rule",
+      "fill | 2",
+      "property | ❤️ Salud |  |",
+      "property | 🛡 Armadura |  |",
+      "property|  💥 Daño |   |",
+      "property | 🔥 Daño de fuego |",
+      "property | 🤢 Daño de veneno |",
+      "property | 🧊 Congela un turno |",
+      "property| 🕳 Trampa Hoyo | |",
+      "rule",
+      "property | 💀 Trampa                       ||🎲 Fallo  / Exito|",
+      "property | 1 Abres una caja con ratas            || -1 🥕/ ___| ",
+      "property | 2 Abres pequeño cofre           ||   1  🤢/ ___| ",
+      "property | 3 Lees Libro maldito             || -1 🛡/ ___| ",
+      "property | 4 Lees Libro maldito             ||   1 💥/ ___| ",
+      "property | 5 Lees Libro maldito             ||  -2 ⚔️/ ___  | ",
+      "property | 6 Lees Libro mágico             ||  ___  / 1⚔️  | "
     ],
     "tags": [],
     "title_size": "16"
@@ -933,41 +956,12 @@
       "property| 🕳 Vuelves al nivel anterior | |",
       "rule",
       "property | 💀 Trampa                       ||🎲 Fallo  / Exito|",
-      "property | 1 Abrir Jarron viejo            || -1🥕  / ___| ",
-      "property | 2 Abrir pequeño cofre           ||   🤢  / ___| ",
-      "property | 3 Lees Libro maldito             || -1🛡  / ___| ",
-      "property | 4 Lees Libro maldito             ||   💥  / ___| ",
-      "property | 5 Lees Libro maldito             ||  -2⚔️  / ___  | ",
-      "property | 6 Lees Libro mágico             ||  ___  / 3⚔️  | "
-    ],
-    "tags": [],
-    "title_size": "16"
-  },
-  {
-    "count": "1",
-    "color": "Red",
-    "title": "TRAMPA",
-    "icon": "spiked-mace",
-    "icon_back": "spiked-mace",
-    "contents": [
-      "subtitle | 💀 Habilidad ó Desgracia...",
-      "rule",
-      "fill | 2",
-      "property | ❤️ Salud |  |",
-      "property | 🛡 Armadura |  |",
-      "property|  💥 Daño |   |",
-      "property | 🔥 Daño de fuego |",
-      "property | 🤢 Daño de veneno |",
-      "property | 🧊 Congela un turno |",
-      "property| 🕳 Vuelves al nivel anterior | |",
-      "rule",
-      "property | 💀 Trampa                       ||🎲 Fallo  / Exito|",
-      "property | 1 Trampa Pozo                     || -1🥕 / ___| ",
-      "property | 2 Trampa Veneno                   ||   🤢 / ___| ",
-      "property | 3 Trampa Explosiva                || -1🛡 / ___| ",
-      "property | 4 Trampa Madriguera               ||  2💥 / ___| ",
-      "property | 5 Piedra Maldita                  ||  -2⚔️ /️___  | ",
-      "property | 6 Cofre Trampa                    ||  ___ / 3⚔️ | "
+      "property | 1 Abres caja con ratas                     || -1 🥕/ ___| ",
+      "property | 2 Trampa con Veneno                   ||  1 🤢 / ___| ",
+      "property | 3 Trampa Explosiva                || -1 🛡/ ___| ",
+      "property | 4 Trampa Madriguera               ||  2 💥/ ___| ",
+      "property | 5 Piedra Maldita                  ||  -2 ⚔️ /️___  | ",
+      "property | 6 Logras desactivar la trampa ||   ___ / 1 ⚔️ | "
     ],
     "tags": [],
     "title_size": "16"
@@ -991,12 +985,12 @@
       "property| 🕳 Vuelves al nivel anterior | |",
       "rule",
       "property | 💀 Trampa                     ||🎲 Fallo  / Exito|",
-      "property | 1 Abrir Tumba                 || -1🥕 / ___| ",
-      "property | 2 Abrir Tumba                 ||   🤢 / ___| ",
-      "property | 3 Abrir Tumba                 ||   💥 / ___| ",
-      "property | 4 Romper caja                 ||  2💥 / ___| ",
-      "property | 5 Romper caja                 || -2🪙 / ___  | ",
-      "property | 6 Romper caja                 ||  ___ / 3🪙 | "
+      "property | 1 Abres una Tumba con ratas                 || -1 🥕/ ___| ",
+      "property | 2 Abres una Tumba         ||   1🤢/ ___| ",
+      "property | 3Abres una Tumba          ||   1 💥/ ___| ",
+      "property | 4 Romper caja                 ||  2 💥/ ___| ",
+      "property | 5 Dejas caer 🪙 en una regilla  || -2 🪙/ ___  | ",
+      "property | 6 Wow, la caja tenia Oro!!! ||  ___ / 3 🪙 | "
     ],
     "tags": [],
     "title_size": "16"
@@ -1017,8 +1011,8 @@
       "property | 🍄 Comida || 3 |",
       "property | 🛡 Armadura|| - | ",
       "rule",
-      "description | Puñalada (combate)         | Duplica el daño de tu próximo ataque.",
-      "description | Evasión: (Exploración)     | saltar la puerta de al lado."
+      "description | Puñalada (combate)         | Duplica el daño de tu próximo ataque 💪 .",
+      "description | Evasión: (Exploración)     | Salta la puerta de al lado. 🦘"
     ],
     "tags": [],
     "title_size": "16"
@@ -1039,7 +1033,7 @@
       "property | 🥕 Comida || 4 |",
       "property | 🛡 Armadura|| - | ",
       "rule",
-      "description | Conjuración (combate)    | Usa pociones de 🔥, 🧊 o 🤢 gratis",
+      "description | Conjuración (combate)    | Usa pociones de 🔥, 🧊 o 🤢 gratis.",
       "description | Previsión (exploración)  | Revelar hasta 3 🚪"
     ],
     "tags": [],
@@ -1061,8 +1055,8 @@
       "property | 🍗 Comida  || 4 |",
       "property | 🛡 Armadura || 1 |",
       "rule",
-      "description | Aturdir (Combate) | Aplica el doble del valor de tu escudo como daño",
-      "description | Escudo (Exploración) | Aumenta +1 en escudo contra monstruos solo en la puerta de al lado"
+      "description | Aturdir (Combate) | Aplica el doble del valor de tu 🛡 como daño.",
+      "description | Escudo (Exploración) | Aumenta +1🛡 contra monstruos solo para el proximo monstruo."
     ],
     "tags": [],
     "title_size": "16"
@@ -1085,7 +1079,7 @@
       "property | 🛡 Armadura|| - | ",
       "rule",
       "description | Tributo Divino (Combate) | Pierde X de ❤️ y aplica el doble de esta cantidad como daño.",
-      "description | Bendición (Exploración) | Elimina cualquier hechizo de cualquiera y cura +2 ❤️"
+      "description | Bendición (Exploración) | 🧪 Remueves 1 hechizo de cualquiera y cura +2 ❤️"
     ],
     "tags": [],
     "title_size": "16"
@@ -1108,8 +1102,7 @@
       "property | _____________________________________________  |   | ",
       "fill ",
       "property | _____________________________________________  |   | ",
-      "fill ",
-      ""
+      "fill"
     ],
     "tags": [],
     "title_size": "16"
@@ -1121,20 +1114,16 @@
     "icon": "spiked-mace",
     "icon_back": "spiked-mace",
     "contents": [
-      "subtitle | 🥷   CONSUMIBLES",
-      "property | 🔖 Hechizos   |  | ",
+      "subtitle | 🥷   CONSUMIBLES ",
       "rule",
+      "property | 📜 Hechizos   |  | ",
       "boxes | 4 | 4.5",
       "rule",
       "property | 🍗 Comida |   | ",
       "boxes | 7 | 2.5",
       "rule",
       "property | 🪙 Oro |   | ",
-      "boxes | 21 | 2.5",
-      "",
-      "",
-      "",
-      ""
+      "boxes | 21 | 2.5"
     ],
     "tags": [],
     "title_size": "16"
@@ -1211,20 +1200,23 @@
     "contents": [
       "subtitle | JUGADORES / AGRESIVIDAD",
       "rule",
-      "property |🔥| Causa 7 puntos de daño a tu enemigo.|   ",
+      "property |🔥| Causa X de daño a tu enemigo. |   ",
       "property |🧊| No atacará este turno. ",
       "property |🤢| Daño +1 (al mismo) durante 4 turnos.",
-      "property |❤️‍🩹| Gana 6 puntos de vida",
-      "property |🧪| Cura Envenenamiento y Maldición",
-      "property |⚔️| Puntos de Experiencia",
-      "property |🙌🏻| Objeto utilizable (carta)",
-      "property |🍄| Comida",
-      "property |🕳| Trampa",
-      "property |🛡| Armadura / Atraviesa Armadura",
+      "property |❤️‍🩹| Gana X puntos de vida.",
+      "property |🧪| Cura Envenenamiento y Maldición.",
+      "property |⚔️| Puntos de Experiencia.",
+      "property |🙌🏻| Objeto utilizable (carta).",
+      "property |✝️| Sacrificio / 🕳 Trampa. ",
+      "property |🛡| Armadura / 🛡 Atraviesa Armadura.",
+      "property |🍄🍎🍅🥕🥑🍗| Comidas.",
+      "property |__________________________________________| ",
       "property |🟩| ",
       "property |🟨| ",
       "property |🟥| ",
       "property |🟪| ",
+      "property |⬛|",
+      "property |⬜|",
       " "
     ],
     "tags": [
